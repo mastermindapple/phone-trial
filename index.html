@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>
+          Feedback
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDQP1QAW2AINyS5EnlzFL29INzjoqIDQjo",
+    authDomain: "logup-e60f6.firebaseapp.com",
+    databaseURL: "https://logup-e60f6.firebaseio.com",
+    projectId: "logup-e60f6",
+    storageBucket: "logup-e60f6.appspot.com",
+    messagingSenderId: "468490925287",
+    appId: "1:468490925287:web:6b0be769ea2fccae839e42"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    </head>
+
+
+    <body>
+        <center>
+            <h1>
+                Please Provide Your Feedback for online Maths Classes
+            </h1>
+        </center>
+        <br>
+        <input type="text" id="name" placeholder="Name" maxlength="30">
+        <br>
+        <hr>
+        <h2>
+            Please Give your feedback based on the following Parameters out of 10-
+        </h2>
+        <br>
+        <hr>
+        <h3>
+            Teaching-
+        </h3>
+        <div class="teaching-container">
+                <button id="teach-one" onclick="teachOne()">
+                 <img src="onecropped.png">
+                </button>
+
+                <button id="teach-two" onclick="teachTwo()">
+                    <img src="twocropped.png">
+                   </button>
+
+                   <button id="teach-three" onclick="teachThree()">
+                    <img src="threecropped.png">
+                   </button>
+
+                   <button id="teach-four" onclick="teachFour()">
+                    <img src="fourcropped.png">
+                   </button>
+                   <button id="teach-five" onclick="teachFive()">
+                    <img src="fivecropped.png">
+                   </button>
+                   <button id="teach-six" onclick="teachSix()">
+                    <img src="sixcropped.png">
+                   </button>
+                   <button id="teach-seven" onclick="teachSeven()">
+                    <img src="sevencropped.png">
+                   </button>
+                   <button id="teach-eight" onclick="teachEight()">
+                    <img src="eightfinalfinal.png">
+                   </button>
+                   <button id="teach-nine" onclick="teachNine()">
+                    <img src="ninefinalfinal.png">
+                   </button>
+                   <button id="teach-ten" onclick="teachTen()">
+                    <img src="tenfinalfinal.png">
+                    </button>
+                    <p id="teaching-display">
+                        <b>
+                            
+                        </b>
+                    </p>
+                   
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <button id="btn" onclick="submit()">Submit</button>
+
+
+        <script src="script.js">
+
+        </script>
+
+
+
+    </body>
+</html>
